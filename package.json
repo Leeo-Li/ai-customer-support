@@ -1,0 +1,15 @@
+{
+  "name": "api-support-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A layered AI customer-support pipeline for an API subscription product.",
+  "scripts": {
+    "demo": "node cli.mjs --trace",
+    "eval": "node eval/eval-intent.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
